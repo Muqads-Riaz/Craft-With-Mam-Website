@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CraftWithMam</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body class="bg-light">
+    <div class="container">
+      <div class="row">
+       <div class=" offset-md-2 col-md-8 ">
+         <div class="loginForm  mt-5 w-md-75">
+    <div class="frontSide">
+       <div class="content bg-white rounded shadow">
+          <h1>Welcome !!</h1>
+          <p>Log into your account to access the features.</p>
+          <button class="btn btn-primary rounded-pill p-2 px-3" onclick="loginCard();">Login</button>
+       </div>
+    </div>
+
+    <div class="backSide">
+       <div class="content bg-white rounded shadow">
+          <h1>Login</h1><br><br>
+          <input type="text" name="Admin Name" id="Admin Name" class="sh_input" placeholder="Username" autocomplete="off"><br><br>
+          <input type="password" name="password" id="password" class="sh_input" placeholder="Password" autocomplete="off"><br><br>
+
+          <button  onclick="login()"  class="btn btn-primary rounded-pill p-2 m-2 px-3">Login</button><br>
+          <button class=" btn btn-secondary rounded-pill p-2 px-3" onclick="cancelCard();">Cancel</button><br><br>
+
+       </div>
+    </div>
+ </div>
+</div>
+</div>
+</div>
+  
+ 
+   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<script type="module" src="app.js"></script>
+</body>
+</html>
